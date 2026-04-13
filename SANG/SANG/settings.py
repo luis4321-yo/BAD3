@@ -38,8 +38,7 @@ SECRET_KEY = 'django-insecure-ipt5vjb%@+id30l9f86k&xw==o48!+s^x*e*!x1^y(*#e)*i8^
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['157.230.250.250']
-
+ALLOWED_HOSTS = ['157.230.250.250', 'localhost', '127.0.0.1']
 
 # CSRF Settings for local development
 CSRF_TRUSTED_ORIGINS = ['http://157.230.250.250']
